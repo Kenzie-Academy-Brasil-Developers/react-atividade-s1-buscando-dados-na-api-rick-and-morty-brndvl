@@ -1,0 +1,27 @@
+.card-alive{
+    height: 250px;
+    max-width: 190px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    background-color: aliceblue;
+    color: cadetblue;
+    font-weight: bold;
+}
+
+.card-dead{
+    height: 250px;
+    max-width: 190px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    background-color: lightcoral;
+    color: white;
+    font-weight: bold;
+}
+
+.picture{
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+}
