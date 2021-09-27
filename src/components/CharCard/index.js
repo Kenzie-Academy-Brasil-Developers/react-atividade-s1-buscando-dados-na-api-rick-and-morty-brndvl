@@ -7,9 +7,9 @@ export const CharCard = ({char: {name, image, species, status}}) => {
         {status === "Alive" ? (
             
         <div className="card-alive">
-            <label>{name}</label>
-            <img className="picture" src={image} alt={name}></img>
-            <p>{species}</p>
+                <label>{name}</label>
+                <img className="picture" src={image} alt={name}></img>
+                <p>{species}</p>
         </div>
 
         ) : (
